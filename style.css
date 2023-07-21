@@ -1,0 +1,29 @@
+h1 {
+    color: rgb(199, 94, 8);
+    text-align: center;
+  }
+
+  .odd {
+    color: red;
+
+  }
+
+.even {
+    color:blue;
+    }
+
+#tree {
+    color: green;
+    }
+
+.out {
+    background-color: yellow;
+    width: 50%;
+    height: 500px;
+}
+
+.in {
+    background-color: orange;
+    width: 50%;
+    height: 300px;
+}
