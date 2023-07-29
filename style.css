@@ -19,7 +19,7 @@ body{
     left: 0;
     padding:0 4%;
     background: #0c111b;
-    z-index: 0;
+    z-index: 1;
     display: flex;
     align-items: center;
 
@@ -32,9 +32,104 @@ body{
 .nav-links {
     margin: 10px;
     display: flex;
-    list-style: none;
-    
+    list-style: none;   
 } 
+
+.nav-items a{
+   text-decoration: none;
+   margin-left: 20px;
+   text-transform:capitalize;
+   color: #fff;
+   opacity: 0.9;
+}
+
+.right-container{
+    display: block;
+    margin-left:auto;
+}
+
+.search-box {
+    border: none;
+    border-bottom: 1px solid #aaa;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: #fff;
+    width: 250px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500px;
+    transition: 0.5s;
+}
+
+.search-box:focus {
+    width: 400px;
+    border-color: #1f80e0;
+}
+
+.Subscribe {
+    background: #1f80e0;
+    height: 30px;
+    padding: 0 20px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700px;
+    font-size: 12px;
+    margin: 0 10px;
+}
+
+.login-btn {
+    color: #fff;
+    opacity: 0.9;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700px;
+    text-decoration: none;
+}
+
+.video-card-container{
+    position: relative;
+    width: 92%;
+    margin: auto;
+    height: 10vw;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.video-card {
+        position: relative;
+        min-width: calc(100% / 5 - 10px);
+        width:calc(100% / 5 - 10px);
+        height: 100%;
+        border-radius: 5px;
+        overflow: hidden;
+        background-color: #030b17;
+    }
+
+.card-video, 
+.video-card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-video {
+    position: absolute;
+}
+
+.video-card:hover .video-card-image {
+     display: none;
+}
+
+
+
+
+
+
 
 
      
