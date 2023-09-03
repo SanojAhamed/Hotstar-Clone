@@ -62,10 +62,26 @@
      transition: 0.5s;
  }
 
+    .search-box::placeholder {
+        color: #aaa;
+    }
+
  .search-box:focus {
      width: 400px;
      border-color: #1f80e0;
  }
+
+    .search-btn {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 30px;
+        width: 30px;
+        border: none;
+        background: none;
+        outline: none;
+        cursor: pointer;
+    }
 
  .Subscribe {
      background: #1f80e0;
@@ -477,6 +493,170 @@
             width: 10px;
             height: 15px;
         }
-    
+
     }
+
+    @media screen and (max-width: 500px) {
+        .carousel-container {
+            height: 250px;
+        }
+    
+        .carousel {
+            width: 100%;
+        }
+    
+        .slider {
+            margin-right: 10px;
+        }
+    
+        .slide-content {
+            width: 100%;
+        }
+    
+        .moive-title {
+            padding-left: 10px;
+            margin-top: 50px;
+        }
+    
+        .movie-des {
+            width: 100%;
+            padding-left: 10px;
+            margin-top: 20px;
+        }
+    
+        .video-card-container {
+            height: 20vw;
+        }
+    
+        .video-card {
+            min-width: calc(100% / 3 - 10px);
+            width: calc(100% / 3 - 10px);
+        }
+    
+        .movies-list {
+            height: 200px;
+        }
+    
+        .card-container {
+            width: 100%;
+            padding-left: 0;
+        }
+    
+        .card {
+            min-width: 100px;
+            width: 100px;
+            height: 150px;
+            margin-right: 5px;
+        }
+    
+        .name {
+            font-size: 12px;
+        }
+    
+        .des {
+            font-size: 10px;
+        }
+    
+        .rating {
+            font-size: 10px;
+        }
+    
+        .watchlist-btn {
+            font-size: 10px;
+        }
+    
+        .pre-btn,
+        .nxt-btn {
+            width: 10%;
+        }
+    
+        .pre-btn img,
+        .nxt-btn img {
+            width: 10px;
+            height: 15px;
+        }
+    }
+
+    @media screen and (max-width: 400px) {
+        .carousel-container {
+            height: 200px;
+        }
+    
+        .carousel {
+            width: 100%;
+        }
+    
+        .slider {
+            margin-right: 10px;
+        }
+    
+        .slide-content {
+            width: 100%;
+        }
+    
+        .moive-title {
+            padding-left: 10px;
+            margin-top: 50px;
+        }
+    
+        .movie-des {
+            width: 100%;
+            padding-left: 10px;
+            margin-top: 20px;
+        }
+    
+        .video-card-container {
+            height: 20vw;
+        }
+    
+        .video-card {
+            min-width: calc(100% / 3 - 10px);
+            width: calc(100% / 3 - 10px);
+        }
+    
+        .movies-list {
+            height: 200px;
+        }
+    
+        .card-container {
+            width: 100%;
+            padding-left: 0;
+        }
+    
+        .card {
+            min-width: 100px;
+            width: 100px;
+            height: 150px;
+            margin-right: 5px;
+        }
+    
+        .name {
+            font-size: 12px;
+        }
+    
+        .des {
+            font-size: 10px;
+        }
+    
+        .rating {
+            font-size: 10px;
+        }
+    
+        .watchlist-btn {
+            font-size: 10px;
+        }
+    
+        .pre-btn,
+        .nxt-btn {
+            width: 10%;
+        }
+    
+        .pre-btn img,
+        .nxt-btn img {
+            width: 10px;
+            height: 15px;
+        }
+    }
+
+
     
