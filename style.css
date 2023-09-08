@@ -761,7 +761,7 @@ body {
   }
 }
 
-.last-footer{
+.last-footer {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -770,66 +770,63 @@ body {
   font-size: 12px;
   margin-bottom: 50px;
 }
-.dwn{
+.dwn {
   min-width: 100%;
   width: 100px;
   height: 100%;
 }
 .last-footer-links,
-.last-footer-images{
+.last-footer-images {
   display: flex;
   gap: 10px;
   padding: 10px 0;
 }
 
-
-
-.intro{
+.intro {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   padding-right: 4%;
   font-size: 15px;
   margin-top: 30px;
-
 }
-.intro a{
+.intro a {
   color: #fff;
 }
-.intro a:hover{
+.intro a:hover {
   transform: scale(1.1);
 }
 
-.intro-links{
+.intro-links {
   display: flex;
   gap: 20px;
 }
 
-.intro-images{
+.intro-images {
   display: flex;
   gap: 20px;
 }
 
-.intro-images img{
+.intro-images img {
   width: 30px;
   height: 30px;
   cursor: pointer;
 }
 
-.intro-images img:hover{
+.intro-images img:hover {
   transform: scale(1.1);
 }
 
-.intro-links a{
+.intro-links a {
   color: #fff;
   text-decoration: none;
 }
 
-.intro-links a:hover{
+.intro-links a:hover {
   transform: scale(1.1);
 }
 
-.intro-links a::after{
+.intro-links a::after {
   content: "";
   display: block;
   width: 0;
@@ -838,9 +835,7 @@ body {
   transition: width 0.3s;
 }
 
-.intro-links a:hover::after{
+.intro-links a:hover::after {
   width: 100%;
   transition: width 0.3s;
 }
-
-
